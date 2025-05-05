@@ -63,23 +63,6 @@ python cpp_auto_build.py \
 
 ---
 
-## Example Build Script (`build.py`)
-
-```python
-import os
-import subprocess
-
-print("🔨 Building...")
-
-# Example: g++ compile command
-subprocess.run(["g++", "-o", "main", "src/main.cpp"])
-
-# Example: run tests or the built binary
-subprocess.run(["./main"])
-```
-
----
-
 ## Stop Program
 
 Just hit `Ctrl+C` in the terminal.
