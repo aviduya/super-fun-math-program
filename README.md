@@ -20,15 +20,15 @@ git clone https://github.com/aviduya/super-fun-math-program.git
 cd super-fun-math-program
 ```
 
-2. **Create a virtual environment (optional but recommended)**
+2. **Activate venv**
 
 ```bash
 # macOS/Linux
-python3 -m venv venv
+cd ./super-fun-math-program
 source venv/bin/activate
 
 # Windows (cmd)
-python -m venv venv
+cd C:SomeDirectory\super-fun-math-program
 venv\Scripts\activate
 ```
 
