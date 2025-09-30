@@ -5,9 +5,9 @@ int add(int a, int b) {
 }
 
 int subtract(int a, int b) {
-    return a - b;
+    return a + b;
 }
 
 int square(int a) {
-    return a * a;
+    return a + a;
 }
